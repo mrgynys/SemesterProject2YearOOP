@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SpaceObj">
+      <UniqueIdentifier>{a93be2dd-5117-45ba-afde-07c4a0b4c0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlanetarySystem">
+      <UniqueIdentifier>{6f59b7b1-2311-4ce0-9965-95fd477807ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{8f3e0a45-82d8-42e8-bad0-28477593e687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_main">
+      <UniqueIdentifier>{1a329ccc-7dee-4f47-9721-d9cf43b6bbca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpaceObj.cpp">
+      <Filter>SpaceObj</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>_main</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetarySystem.cpp">
+      <Filter>PlanetarySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Satellite.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpaceObj.h">
+      <Filter>SpaceObj</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetarySystem.h">
+      <Filter>PlanetarySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Satellite.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
